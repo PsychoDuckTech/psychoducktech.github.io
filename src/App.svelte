@@ -303,8 +303,8 @@
         {#each features as feature}
           <div class="feature">
             <div class="feature-icon">
-              <img 
-                src="/placeholder.svg?height=64&width=64" 
+              <img
+                src="/placeholder.svg?height=64&width=64"
                 alt={feature.title}
               />
             </div>
@@ -1419,17 +1419,6 @@ nav.scrolled .nav-content {
     font-weight: 500;
     transition: all 0.3s ease;
     position: relative;
-  }
-
-  .floating-link::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: black;
-    transition: width 0.3s ease;
   }
 
   .floating-link:hover {
